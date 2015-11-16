@@ -1252,8 +1252,8 @@ namespace DWS_Lite
                     _rm = pl_PL.ResourceManager;
                     ChangeLanguage();
                     break;
-                case "it-CH":
-                    _rm = it_CH.ResourceManager;
+                case "it-IT":
+                    _rm = it_IT.ResourceManager;
                     ChangeLanguage();
                     break;
                 case "cs-CZ":
@@ -1765,8 +1765,8 @@ Are you sure?", @"Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == 
             }
             else if (currentlang.IndexOf("it", StringComparison.Ordinal) > -1)
             {
-                _rm = it_CH.ResourceManager;
-                comboBoxLanguageSelect.Text = @"it-CH | Italian";
+                _rm = it_IT.ResourceManager;
+                comboBoxLanguageSelect.Text = @"it-IT | Italian";
             }
             else if (currentlang.IndexOf("cs", StringComparison.Ordinal) > -1)
             {

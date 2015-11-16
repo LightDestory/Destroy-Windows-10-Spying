@@ -910,7 +910,7 @@ namespace DWS_Lite
             "en-US | English",
             "es-ES | Spanish",
             "fr-FR | French",
-            "it-CH | Italian",
+            "it-IT | Italian",
             "lt-LT | Lithuanian",
             "nl-NL | Dutch",
             "pl-PL | Polish",
@@ -1235,7 +1235,7 @@ namespace DWS_Lite
             this.SecretButton.TabStop = false;
             this.SecretButton.Click += new System.EventHandler(this.SecretButton_Click);
             // 
-            // DestroyWindowsSpyingMainForm
+            // MainDwsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1253,7 +1253,7 @@ namespace DWS_Lite
             this.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
-            this.Name = "DestroyWindowsSpyingMainForm";
+            this.Name = "MainDwsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "       DWS Lite   build ";
             this.TransparencyKey = System.Drawing.Color.Magenta;
